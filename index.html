@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded PDF Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      background: #007bff;
+      color: white;
+      padding: 15px 0;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    .viewer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    iframe {
+      width: 45%;
+      height: 80vh;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>📘 Embedded PDF Viewer</header>
+
+  <div class="viewer-container">
+    <iframe src="/DBMS III SEM SEP LAB MANUAL.pdf"></iframe>
+    <iframe src="/plsql manual.pdf"></iframe>
+  </div>
+</body>
+</html>
